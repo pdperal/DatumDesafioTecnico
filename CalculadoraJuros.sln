@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraJuros", "CalculadoraJuros\CalculadoraJuros.csproj", "{64B2FCEE-2CF2-4D22-84BE-05CE14E99E5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxaJuros", "TaxaJuros\TaxaJuros.API\TaxaJuros.csproj", "{3C86E759-D3BC-4624-BA35-13E726206C77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxaJuros.Testes", "TaxaJuros\TaxaJuros.Testes\TaxaJuros.Testes.csproj", "{8D524CFC-EFD8-4C60-A9D9-AF96C5F81D8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{64B2FCEE-2CF2-4D22-84BE-05CE14E99E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{64B2FCEE-2CF2-4D22-84BE-05CE14E99E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{64B2FCEE-2CF2-4D22-84BE-05CE14E99E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{64B2FCEE-2CF2-4D22-84BE-05CE14E99E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C86E759-D3BC-4624-BA35-13E726206C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C86E759-D3BC-4624-BA35-13E726206C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C86E759-D3BC-4624-BA35-13E726206C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C86E759-D3BC-4624-BA35-13E726206C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D524CFC-EFD8-4C60-A9D9-AF96C5F81D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D524CFC-EFD8-4C60-A9D9-AF96C5F81D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D524CFC-EFD8-4C60-A9D9-AF96C5F81D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D524CFC-EFD8-4C60-A9D9-AF96C5F81D8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

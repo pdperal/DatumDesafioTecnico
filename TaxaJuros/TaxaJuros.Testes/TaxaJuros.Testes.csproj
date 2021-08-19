@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TaxaJuros\TaxaJuros.csproj" />
+    <ProjectReference Include="..\TaxaJuros.API\TaxaJuros.csproj" />
   </ItemGroup>
 
 </Project>
