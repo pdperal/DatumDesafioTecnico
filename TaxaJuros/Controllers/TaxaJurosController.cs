@@ -11,9 +11,9 @@ namespace TaxaJuros.Controllers
         }
 
         [HttpGet("/taxaJuros")]
-        public IActionResult TaxaJuros()
+        public IActionResult ObterTaxaJuros()
         {
-            return Ok(0.01);
+            return Ok(0.01M);
         }
     }
 }

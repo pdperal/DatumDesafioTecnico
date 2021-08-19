@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxaJuros", "TaxaJuros\TaxaJuros.csproj", "{5D22CC8E-8F89-453C-B02B-3B9903D01BAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxaJuros", "TaxaJuros\TaxaJuros.csproj", "{5D22CC8E-8F89-453C-B02B-3B9903D01BAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxaJuros.Testes", "TaxaJuros.Testes\TaxaJuros.Testes.csproj", "{1B5BE9CF-365B-4AA4-ADE3-7AD9E37762B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5D22CC8E-8F89-453C-B02B-3B9903D01BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D22CC8E-8F89-453C-B02B-3B9903D01BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D22CC8E-8F89-453C-B02B-3B9903D01BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5BE9CF-365B-4AA4-ADE3-7AD9E37762B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5BE9CF-365B-4AA4-ADE3-7AD9E37762B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5BE9CF-365B-4AA4-ADE3-7AD9E37762B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5BE9CF-365B-4AA4-ADE3-7AD9E37762B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
