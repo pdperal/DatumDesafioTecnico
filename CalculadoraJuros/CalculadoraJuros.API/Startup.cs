@@ -28,6 +28,7 @@ namespace CalculadoraJuros
         {
             services.AddScoped<ITaxaJurosService, TaxaJurosService>();
             services.AddScoped<ICalculadoraService, CalculadoraService>();
+            services.AddHttpClient<TaxaJurosService>();
 
             services
                 .AddControllers(x => x.Filters.Add(typeof(ValidationFilter)))
