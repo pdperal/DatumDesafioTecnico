@@ -21,5 +21,11 @@ namespace CalculadoraJuros.Controller
             var data = await _service.CalcularJuros(request);
             return Ok(data);
         }
+
+        [HttpGet("showmethecode")]
+        public ActionResult ShowMeTheCode()
+        {
+            return Ok($"https://github.com/pdperal/DatumDesafioTecnico");
+        }
     }
 }
