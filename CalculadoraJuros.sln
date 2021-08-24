@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculadoraJuros", "CalculadoraJuros\CalculadoraJuros.API\CalculadoraJuros.csproj", "{58D0B5C4-8013-4D61-9477-B13469C92B50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraJuros.Testes", "CalculadoraJuros\CalculadoraJuros.Testes\CalculadoraJuros.Testes.csproj", "{10A10ADB-10D2-4B91-8960-900B997B45E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculadoraJuros.Testes", "CalculadoraJuros\CalculadoraJuros.Testes\CalculadoraJuros.Testes.csproj", "{10A10ADB-10D2-4B91-8960-900B997B45E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "CalculadoraJuros\Domain\Domain.csproj", "{B1A83EC4-D3C4-4A6F-B141-D1162BB4C049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTService", "RESTService\RESTService.csproj", "{D29B0CCC-E4AC-4562-9712-45ADFB5CDBC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{10A10ADB-10D2-4B91-8960-900B997B45E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10A10ADB-10D2-4B91-8960-900B997B45E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10A10ADB-10D2-4B91-8960-900B997B45E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A83EC4-D3C4-4A6F-B141-D1162BB4C049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A83EC4-D3C4-4A6F-B141-D1162BB4C049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A83EC4-D3C4-4A6F-B141-D1162BB4C049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A83EC4-D3C4-4A6F-B141-D1162BB4C049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29B0CCC-E4AC-4562-9712-45ADFB5CDBC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29B0CCC-E4AC-4562-9712-45ADFB5CDBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29B0CCC-E4AC-4562-9712-45ADFB5CDBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29B0CCC-E4AC-4562-9712-45ADFB5CDBC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
