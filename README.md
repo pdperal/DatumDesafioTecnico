@@ -21,6 +21,7 @@ Após finalizar o build, execute o seguinte comando:
 - docker-compose up
   - Este comando irá levantar ambas as aplicações, cada uma rodando em seu contâiner específico em uma porta específica.
 
+Após os serviços serem levantados, você pode acessar a API principal no endereço http://localhost:5002/swagger/index.html
 
 ## Bibliotecas e ferramentas utilizadas
 Abaixo estão listadas as bibliotecas externas utilizadas e seus motivos.
