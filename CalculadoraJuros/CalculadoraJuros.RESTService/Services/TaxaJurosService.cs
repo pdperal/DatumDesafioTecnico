@@ -15,7 +15,7 @@ namespace RESTService.Services
         }
         public async Task<decimal> ObterTaxaJuros()
         {
-            return await Task.FromResult(0.1M);
+            return await Task.FromResult(0.01M);
         }
     }
 }
