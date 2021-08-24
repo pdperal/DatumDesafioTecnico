@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  calculadorajuros:
+    image: ${DOCKER_REGISTRY-}calculadorajuros
+    container_name: calculadorajuros
+    ports:
+      - 5002:80
+    build:
+      context: .
+      dockerfile: CalculadoraJuros\CalculadoraJuros.API\Dockerfile
+  taxajuros:
+    image: ${DOCKER_REGISTRY-}taxajuros
+    container_name: taxajuros
+    ports: 
+      - 5001:80
+    build:
+      context: .
+      dockerfile: TaxaJuros\TaxaJuros.API\Dockerfile

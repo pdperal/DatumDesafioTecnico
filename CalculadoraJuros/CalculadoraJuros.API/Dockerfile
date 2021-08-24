@@ -5,10 +5,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["CalculadoraJuros/CalculadoraJuros.csproj", "CalculadoraJuros/"]
-RUN dotnet restore "CalculadoraJuros/CalculadoraJuros.csproj"
+COPY ["CalculadoraJuros/CalculadoraJuros.API/CalculadoraJuros.csproj", "CalculadoraJuros.API/"]
+RUN dotnet restore "CalculadoraJuros.API/CalculadoraJuros.csproj"
 COPY . .
-WORKDIR "/src/CalculadoraJuros"
+WORKDIR "/src/CalculadoraJuros/CalculadoraJuros.API"
 RUN dotnet build "CalculadoraJuros.csproj" -c Release -o /app/build
 
 FROM build AS publish

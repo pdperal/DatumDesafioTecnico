@@ -5,10 +5,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["TaxaJuros/TaxaJuros.csproj", "TaxaJuros/"]
-RUN dotnet restore "TaxaJuros/TaxaJuros.csproj"
+COPY ["TaxaJuros/TaxaJuros.API/TaxaJuros.csproj", "TaxaJuros.API/"]
+RUN dotnet restore "TaxaJuros.API/TaxaJuros.csproj"
 COPY . .
-WORKDIR "/src/TaxaJuros"
+WORKDIR "/src/TaxaJuros/TaxaJuros.API"
 RUN dotnet build "TaxaJuros.csproj" -c Release -o /app/build
 
 FROM build AS publish

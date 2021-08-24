@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxaJuros", "TaxaJuros\TaxaJuros.API\TaxaJuros.csproj", "{C4CC156E-4352-45D7-8C91-EA39A8DBFE9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxaJuros", "TaxaJuros.API\TaxaJuros.csproj", "{C4CC156E-4352-45D7-8C91-EA39A8DBFE9E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxaJuros.Testes", "TaxaJuros\TaxaJuros.Testes\TaxaJuros.Testes.csproj", "{0715776B-25AF-477B-B957-33FE1D883237}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxaJuros.Testes", "TaxaJuros.Testes\TaxaJuros.Testes.csproj", "{0715776B-25AF-477B-B957-33FE1D883237}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
