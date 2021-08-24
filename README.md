@@ -35,8 +35,11 @@ Exemplo implementado neste projeto:
 Como o projeto em questão não possui muitas regras ou complexidade envolvida, a escolha por xUnit, NUnit ou o próprio MSTest fica a critério do desenvolvedor, visto que as três opções fornecem os mesmos recursos para o nível exigido neste desafio.
 Por opção, utiliza o xUnit por ter familiaridade com a biblioteca.
 
-### Moq
+#### Moq
 Para mockar os serviços e os retornos dos serviços no âmbito de testes unitários, utilizei a biblioteca Moq.
 
-### docker-compose
+#### docker-compose
 Para orquestrar ambos os contâineres, utilizei o docker-compose. Uma ferramenta simples de utilizar (mas que me fez quebrar bastante a cabeça rsrsrs) que me permite buildar e levantar N serviços em conjunto.
+
+#### Swagger
+Swagger é uma das bibliotecas mais famosas para documentação de APIs. Lhe permite expor os endpoints em uma página no navegador, possibilitando efetuar requisições e realizar testes.
